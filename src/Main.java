@@ -52,7 +52,10 @@ public class Main {
         );
 
         if (soknamn == null) {
+            JOptionPane.showMessageDialog(null,"ej giltigt bröja om");
+
             continue;
+
         }
 
         soknamn = soknamn.trim();
@@ -91,4 +94,5 @@ public class Main {
 
 }
 
+}
 
